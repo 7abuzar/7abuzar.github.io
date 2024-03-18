@@ -1,33 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-  
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Abuzar Khan</title>
-		<link rel="stylesheet" href="styles.css">
-	</head>
-  
-	<body>
-    
-		<header>
-    			<h1>Abuzar Khan</h1>
-			<div id="menuToggler">&#8801;</div>
-		  	<nav id="menu">
-		  		<a href="#">Home</a>
-	  			<a href="#">Experiance</a>
-	  			<a href="#">Education</a>
-	  			<a href="#">Contact Me</a>
-	  		</nav>
-      		</header>
-    
-    		<main>
-      			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    		</main>
-    
-		<script src="js/scripts.js"></script>
-    
-	</body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cool CV</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#welcome">Welcome</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="welcome" class="title-section">
+        <div class="content">
+            <h1>Abuzar Khan</h1>
+            <p>Welcome to my page</p>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="content">
+            <h2>About Me</h2>
+            <p>
+				Motivated and eager with a strong desire to re-ignite my career, 
+				after recently completing my final year and achieving a First Class 
+				Honors in my Computer Science course. Passionate and excited to apply 
+				the knowledge and skills gained during my studies. Possessing a strong 
+				work ethic, excellent problem-solving skills, and a commitment to 
+				continuous learning and professional growth. A fast learner who thrives in 
+				a collaborative team environment and is ready to contribute to the success 
+				of an organization. Seeking an opportunity to leverage my education and 
+				passion to make a positive contribution to this role.
+			</p>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="content">
+            <h2>Skills</h2>
+            <ul>
+                <li>Leadership</li>
+				<li>Communication</li>
+				<li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <!-- Add more skills as needed -->
+            </ul>
+
+			<h3>Leadership</h3>
+			<p>
+				Managed group projects during my time at University, where I 
+				assumed a leadership role where I successfully guided a team of 
+				diverse individuals. Implementing effective communication strategies, 
+				I fostered a collaborative environment that encouraged the sharing of 
+				ideas and expertise.
+			</p>
+
+			<h3>Communication</h3>
+			<p>
+				Excellent written and verbal communication skills. Proven ability to 
+				communicate complex ideas and concepts to diverse audiences. Skilled 
+				in conflict resolution and negotiation.
+			</p>
+        </div>
+    </section>
+
+    <section id="experience" class="section">
+        <div class="content">
+            <h2>Experience</h2>
+            <div class="experience-item">
+                <h3>Sales Advisor</h3>
+                <p>Currys plc - Oct 2023-Present</p>
+                <p>
+					As a Sales Advisor, my primary role involves engaging with customers 
+					to discuss our service offerings. My effective listening and questioning 
+					abilities helps to establish strong connections with customers, allowing 
+					me to gain insight into their specific needs. This, in turn, enables me 
+					to recommend the ideal product at the most competitive price.
+				</p>
+            </div>
+
+			<div class="experience-item">
+                <h3>Retail Assistant</h3>
+                <p>British Heart Foundation - Mar 2019-Apr 2019</p>
+                <p>
+					Resolved customer inquiries, concerns, and complaints promptly and effectively, 
+					ensuring customer loyalty and retention. Actively contributed to visual
+					merchandising efforts, ensuring adherence to the guideline that the company 
+					has set. Assisted in inventory management, including unpacking items,
+					conducting stock checks, and updating inventory.
+				</p>
+            </div>
+            <!-- Add more experience items as needed -->
+        </div>
+    </section>
+
+    <section id="education" class="section">
+        <div class="content">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>Bachelor of Science (Honours) First Class</h3>
+				<h3>Computer Science</h3>
+                <p>De Montfort University - 2020-2023</p>
+                <p>
+					Relevant coursework includes Front-End Web Development, Agile Team Development, 
+					Computer Ethics and Privacy, Mathematics for Computing, and Development Project.
+				</p>
+            </div>
+            <!-- Add more education items as needed -->
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="content">
+            <h2>Contact Me</h2>
+            <p>Email: 7abuzarkhan@gmail.com</p>
+            <p>Phone: 123-456-7890</p>
+        </div>
+    </section>
+</body>
 </html>
