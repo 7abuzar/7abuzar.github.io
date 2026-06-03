@@ -1,248 +1,495 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Abuzar Khan | Computer Science Graduate & Trainee Computing Teacher</title>
-  <link rel="stylesheet" href="styles.css" />
-  <meta name="description" content="First-Class Computer Science graduate, trainee Secondary Computing teacher, with experience in education, sales and customer service.">
-</head>
-<body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <a href="#hero" class="logo">AK.</a>
-      <nav class="nav" id="nav">
-        <a href="#hero">Home</a>
-        <a href="#about">Profile</a>
-        <a href="#skills">Skills</a>
-        <a href="#experience">Experience</a>
-        <a href="#education">Education</a>
-        <a href="#contact">Contact</a>
-      </nav>
-      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
-  </header>
-
-  <main>
-    <!-- HERO -->
-    <section id="hero" class="hero section-pad">
-      <div class="container hero-grid">
-        <div>
-          <p class="eyebrow">Computer Science (First Class) · Leicester, UK</p>
-          <h1 class="hero-title">Abuzar&nbsp;Khan</h1>
-          <p class="hero-sub">
-            First-Class Computer Science graduate, now training to teach Secondary Computing. I combine technical skills, classroom experience, and proven customer-facing work in sales and service.
-          </p>
-          <div class="hero-actions">
-            <a href="#contact" class="btn primary">Get in touch</a>
-            <a href="#experience" class="btn ghost">View experience</a>
-          </div>
-          <ul class="hero-meta">
-            <li>Teaching & Learning</li>
-            <li>Web Development</li>
-            <li>Customer Experience</li>
-          </ul>
-        </div>
-        <div class="hero-card">
-          <h2>Currently</h2>
-          <p class="muted">Trainee Teacher (Secondary Computing), Leicester & Leicestershire SCITT (Aug 2025 – present)</p>
-          <ul class="pill-list">
-            <li>Digital literacy</li>
-            <li>Programming</li>
-            <li>Assessment</li>
-          </ul>
-          <p class="muted small">Previously: Outbound Sales Advisor, Currys plc (Oct 2023 – Jul 2025)</p>
-        </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Abuzar Khan — Computing Teacher</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <meta
+      name="description"
+      content="First-Class Computer Science graduate, trainee Secondary Computing teacher, based in Leicester, UK."
+    />
+  </head>
+  <body>
+    <!-- NAV -->
+    <header class="site-header" id="siteHeader">
+      <div class="container header-inner">
+        <a href="#hero" class="logo">AK<span class="logo-dot">.</span></a>
+        <nav class="nav" id="nav">
+          <a href="#about" class="nav-link">Profile</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#experience" class="nav-link">Experience</a>
+          <a href="#education" class="nav-link">Education</a>
+          <a href="#contact" class="nav-link nav-cta">Contact</a>
+        </nav>
+        <button
+          class="nav-toggle"
+          id="navToggle"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+        >
+          <span class="burger-line"></span>
+          <span class="burger-line"></span>
+        </button>
       </div>
-    </section>
+    </header>
 
-    <!-- ABOUT -->
-    <section id="about" class="section-pad section-alt">
-      <div class="container narrow">
-        <h2>Profile</h2>
-        <p>
-          I am a First-Class Honours Computer Science graduate from De Montfort University, currently completing a PGCE in Secondary Computing at the University of Leicester. I bring a mix of technical ability (web, programming, problem-solving), educational practice (classroom management, lesson planning, safeguarding), and commercial experience (sales, customer service, relationship-building).
+    <main>
+      <!-- HERO -->
+      <section id="hero" class="hero">
+        <div class="hero-noise"></div>
+        <div class="container hero-inner">
+          <div class="hero-text">
+            <div class="hero-badge">
+              <span class="badge-dot"></span>
+              Available for ECT roles · Sept 2026
+            </div>
+            <h1 class="hero-title">
+              <span class="hero-line-1">Abuzar</span>
+              <span class="hero-line-2">Khan</span>
+            </h1>
+            <p class="hero-desc">
+              First-Class CS graduate training to teach Secondary Computing in
+              Leicester. Bridging technical depth with classroom practice.
+            </p>
+            <div class="hero-tags">
+              <span>Teaching &amp; Learning</span>
+              <span>Web Development</span>
+              <span>Customer Experience</span>
+            </div>
+            <div class="hero-actions">
+              <a href="#contact" class="btn btn-primary">Get in touch</a>
+              <a href="#experience" class="btn btn-outline">View experience</a>
+            </div>
+          </div>
+          <div class="hero-sidebar">
+            <div class="status-card">
+              <p class="status-label">Currently</p>
+              <p class="status-role">CS Teacher</p>
+              <p class="status-org">The Roundhill Academy · Thurmaston</p>
+              <p class="status-date">Mar 2026 – present</p>
+              <div class="status-divider"></div>
+              <p class="status-prev">
+                Previously: CS Teacher at Iveshead School &amp; Graduate
+                Teaching Associate at Aspire People
+              </p>
+            </div>
+            <div class="stat-row">
+              <div class="stat-box">
+                <span class="stat-num">1st</span>
+                <span class="stat-label">BSc Class</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-num">D**</span>
+                <span class="stat-label">BTEC Grade</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-num">QTS</span>
+                <span class="stat-label">In progress</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-scroll-hint">
+          <span>Scroll</span>
+          <div class="scroll-line"></div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="section about-section">
+        <div class="container about-inner">
+          <div class="section-label">01 — Profile</div>
+          <div class="about-grid">
+            <div class="about-heading-col">
+              <h2 class="section-title">Who I<br /><em>am</em></h2>
+            </div>
+            <div class="about-text-col">
+              <p class="about-lead">
+                I'm a First-Class Honours Computer Science graduate from De
+                Montfort University, currently completing a PGCE in Secondary
+                Computing at the University of Leicester.
+              </p>
+              <p>
+                I bring a mix of technical ability — web development,
+                programming, problem-solving — with developing educational
+                practice in classroom management, lesson planning, and
+                safeguarding. On top of that, two years at Currys sharpened my
+                communication, commercial awareness, and ability to work under
+                pressure.
+              </p>
+              <p>
+                I thrive in environments where people learn and grow. Whether
+                that's pupils in a classroom or customers choosing the right
+                technology, I show up with clarity, patience and genuine
+                enthusiasm.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills" class="section skills-section">
+        <div class="container">
+          <div class="section-label">02 — Skills</div>
+          <div class="skills-header">
+            <h2 class="section-title">What I<br /><em>bring</em></h2>
+          </div>
+          <div class="skills-grid">
+            <article class="skill-card skill-card--teaching">
+              <div class="skill-card-icon">🎓</div>
+              <h3>Teaching &amp; Education</h3>
+              <ul class="skill-tags">
+                <li>Lesson planning &amp; delivery</li>
+                <li>Classroom management</li>
+                <li>Assessment &amp; feedback</li>
+                <li>Differentiated instruction</li>
+                <li>Behaviour management</li>
+                <li>Safeguarding</li>
+              </ul>
+            </article>
+            <article class="skill-card skill-card--tech">
+              <div class="skill-card-icon">💻</div>
+              <h3>Technical</h3>
+              <ul class="skill-tags">
+                <li>HTML, CSS, JavaScript</li>
+                <li>Web development</li>
+                <li>Programming &amp; OOP</li>
+                <li>Databases &amp; SDLC</li>
+                <li>Problem-solving</li>
+                <li>EdTech tools</li>
+              </ul>
+            </article>
+            <article class="skill-card skill-card--pro">
+              <div class="skill-card-icon">🤝</div>
+              <h3>Professional</h3>
+              <ul class="skill-tags">
+                <li>Leadership</li>
+                <li>Communication</li>
+                <li>Customer service</li>
+                <li>Sales &amp; negotiation</li>
+                <li>Team collaboration</li>
+                <li>Time management</li>
+              </ul>
+            </article>
+          </div>
+          <div class="skills-spotlight">
+            <div class="spotlight-item">
+              <h4>Leadership</h4>
+              <p>
+                Led university group projects — coordinating diverse teammates,
+                allocating tasks, and keeping communication open to deliver on
+                time and to a high standard.
+              </p>
+            </div>
+            <div class="spotlight-item">
+              <h4>Communication</h4>
+              <p>
+                Able to explain technical ideas to non-technical audiences —
+                pupils, customers, or colleagues — in a calm, structured way.
+                Confident in both written and verbal communication.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- EXPERIENCE -->
+      <section id="experience" class="section experience-section">
+        <div class="container">
+          <div class="section-label">03 — Experience</div>
+          <h2 class="section-title">Where I've<br /><em>worked</em></h2>
+
+          <div class="vtl">
+            <div class="vtl-line"></div>
+
+            <div class="vtl-item vtl-right">
+              <div class="vtl-dot"></div>
+              <div class="vtl-card">
+                <span class="vtl-date">Aug 2025 – Present</span>
+                <span class="tl-type tl-type--edu">Education</span>
+                <h3>Trainee Teacher</h3>
+                <p class="tl-org">
+                  Leicester &amp; Leicestershire SCITT · Leicester, UK
+                </p>
+                <ul>
+                  <li>
+                    Training to deliver the secondary computing curriculum with
+                    a focus on developing digital literacy, programming, and
+                    problem-solving skills.
+                  </li>
+                  <li>
+                    Developing professional expertise in lesson planning,
+                    classroom management, and assessment practices.
+                  </li>
+                  <li>
+                    Applying a range of pedagogical approaches to engage
+                    learners and differentiate instruction effectively.
+                  </li>
+                  <li>
+                    Collaborating with teaching staff to create schemes of work,
+                    integrate technology into lessons, and support whole-school
+                    initiatives.
+                  </li>
+                  <li>
+                    Building knowledge in safeguarding, behaviour management,
+                    and inclusive education while working towards QTS and PGCE.
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="vtl-item vtl-left">
+              <div class="vtl-dot"></div>
+              <div class="vtl-card">
+                <span class="vtl-date">Mar 2026 – Present</span>
+                <span class="tl-type tl-type--edu">Education</span>
+                <h3>Computer Science Teacher</h3>
+                <p class="tl-org">The Roundhill Academy · Thurmaston, UK</p>
+                <ul>
+                  <li>
+                    Training to deliver the secondary computing curriculum with
+                    a focus on deepening subject knowledge, adaptive teaching,
+                    and learner progress across key stages.
+                  </li>
+                  <li>
+                    Refining professional practice in sequencing learning,
+                    assessment for learning, and responsive lesson planning
+                    informed by feedback.
+                  </li>
+                  <li>
+                    Embedding strategies to support diverse learners, including
+                    SEND and EAL, while maintaining high expectations and
+                    positive behaviour for learning.
+                  </li>
+                  <li>
+                    Strengthening the use of retrieval practice, modelling, and
+                    metacognitive strategies to improve outcomes and
+                    independence.
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="vtl-item vtl-right">
+              <div class="vtl-dot"></div>
+              <div class="vtl-card">
+                <span class="vtl-date">Sep 2025 – Jan 2026</span>
+                <span class="tl-type tl-type--edu">Education</span>
+                <h3>Computer Science Teacher</h3>
+                <p class="tl-org">Iveshead School · Shepshed, UK</p>
+                <ul>
+                  <li>
+                    Delivered computing lessons across KS3 and KS4, applying
+                    behaviour management strategies and differentiated
+                    instruction to support learners of all abilities.
+                  </li>
+                  <li>
+                    Created lesson resources aligned with the national
+                    curriculum; used assessment for learning to track progress
+                    and provide constructive feedback.
+                  </li>
+                  <li>
+                    Worked closely with subject mentors and wider school staff
+                    to develop schemes of work and integrate educational
+                    technology.
+                  </li>
+                  <li>
+                    Built evidence towards the Teachers' Standards through
+                    reflective feedback and continuous improvement.
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="vtl-item vtl-left">
+              <div class="vtl-dot"></div>
+              <div class="vtl-card">
+                <span class="vtl-date">Oct 2024 – Jun 2025</span>
+                <span class="tl-type tl-type--edu">Education</span>
+                <h3>Graduate Teaching Associate</h3>
+                <p class="tl-org">
+                  Aspire People (Education Agency) · Leicester, UK
+                </p>
+                <ul>
+                  <li>
+                    Gained classroom experience across KS3/KS4, supporting
+                    lesson delivery and behaviour routines.
+                  </li>
+                  <li>
+                    Adapted quickly to different schools and environments.
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="vtl-item vtl-right">
+              <div class="vtl-dot"></div>
+              <div class="vtl-card">
+                <span class="vtl-date">Oct 2023 – Jul 2025</span>
+                <span class="tl-type tl-type--biz">Commercial</span>
+                <h3>Outbound Sales Advisor</h3>
+                <p class="tl-org">Currys plc · Loughborough, UK</p>
+                <ul>
+                  <li>
+                    Built rapport over phone to understand customer needs and
+                    recommend the right products and services.
+                  </li>
+                  <li>
+                    Hit and exceeded KPIs using persuasive yet customer-first
+                    communication.
+                  </li>
+                  <li>
+                    Maintained strong product knowledge and worked with the team
+                    to maximise performance.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- EDUCATION -->
+      <section id="education" class="section education-section">
+        <div class="container">
+          <div class="section-label">04 — Education</div>
+          <h2 class="section-title">How I<br /><em>learned</em></h2>
+
+          <div class="vtl">
+            <div class="vtl-line"></div>
+
+            <div class="vtl-item vtl-right">
+              <div class="vtl-dot"></div>
+              <div class="vtl-card">
+                <span class="vtl-date">2025 – 2026</span>
+                <span class="edu-badge">In progress</span>
+                <h3>PGCE + QTS</h3>
+                <p class="tl-org">
+                  University of Leicester · Secondary Computing
+                </p>
+                <p>
+                  Curriculum design, inclusive teaching, behaviour management
+                  and assessment. Applying theory on school placements while
+                  developing reflective practice.
+                </p>
+              </div>
+            </div>
+
+            <div class="vtl-item vtl-left">
+              <div class="vtl-dot vtl-dot--gold"></div>
+              <div class="vtl-card vtl-card--highlight">
+                <span class="vtl-date">2020 – 2023</span>
+                <span class="edu-badge edu-badge--gold">First Class</span>
+                <h3>BSc (Hons) Computer Science</h3>
+                <p class="tl-org">De Montfort University</p>
+                <p>
+                  Web development, agile team development, computer ethics,
+                  mathematics for computing, and a final-year development
+                  project.
+                </p>
+              </div>
+            </div>
+
+            <div class="vtl-item vtl-right">
+              <div class="vtl-dot"></div>
+              <div class="vtl-card">
+                <span class="vtl-date">2018 – 2020</span>
+                <span class="edu-badge edu-badge--silver">Distinction**</span>
+                <h3>BTEC ICT Extended Diploma</h3>
+                <p class="tl-org">Gateway Sixth Form College</p>
+                <p>
+                  Equivalent to 3 A-Levels. Strong technical, project management
+                  and communication foundations.
+                </p>
+              </div>
+            </div>
+
+            <div class="vtl-item vtl-left">
+              <div class="vtl-dot"></div>
+              <div class="vtl-card">
+                <span class="vtl-date">2012 – 2017</span>
+                <h3>GCSEs (5 A*–C)</h3>
+                <p class="tl-org">Crown Hills Community College</p>
+                <p>
+                  Built core communication, teamwork and problem-solving skills.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="section contact-section">
+        <div class="container contact-inner">
+          <div class="section-label">05 — Contact</div>
+          <div class="contact-grid">
+            <div class="contact-text">
+              <h2 class="section-title">Let's<br /><em>connect</em></h2>
+              <p>
+                Open to roles in education, computing or tech-focused
+                environments. Starting September 2026.
+              </p>
+            </div>
+            <div class="contact-cards">
+              <a href="mailto:7abuzarkhan@gmail.com" class="contact-card">
+                <span class="contact-card-icon">✉</span>
+                <div>
+                  <p class="contact-card-label">Email</p>
+                  <p class="contact-card-value">7abuzarkhan@gmail.com</p>
+                </div>
+              </a>
+              <div class="contact-card">
+                <span class="contact-card-icon">📍</span>
+                <div>
+                  <p class="contact-card-label">Location</p>
+                  <p class="contact-card-value">
+                    Leicester, England, United Kingdom
+                  </p>
+                </div>
+              </div>
+              <div class="contact-card">
+                <span class="contact-card-icon">💼</span>
+                <div>
+                  <p class="contact-card-label">Availability</p>
+                  <p class="contact-card-value">
+                    Open to ECT roles from September 2026
+                  </p>
+                </div>
+              </div>
+              <div class="contact-card">
+                <span class="contact-card-icon">🎓</span>
+                <div>
+                  <p class="contact-card-label">Specialism</p>
+                  <p class="contact-card-value">
+                    Secondary Computing · KS3 / KS4 / KS5
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p class="footer-logo">AK<span class="logo-dot">.</span></p>
+        <p class="footer-copy">
+          © <span id="year"></span> Abuzar Khan. All rights reserved.
         </p>
-        <p>
-          I enjoy creating environments where people can learn and succeed – whether that’s pupils in the classroom or customers choosing the right technology. I work well in teams, communicate clearly with different audiences, and am committed to continuous professional development.
-        </p>
+        <p class="footer-built">Built with HTML, CSS &amp; JS.</p>
       </div>
-    </section>
+    </footer>
 
-    <!-- SKILLS -->
-    <section id="skills" class="section-pad">
-      <div class="container">
-        <div class="section-heading-flex">
-          <h2>Key Skills</h2>
-          <p class="muted">Mix of education, tech and professional skills.</p>
-        </div>
-        <div class="skills-grid">
-          <article class="card">
-            <h3>Teaching & Education</h3>
-            <ul class="tag-list">
-              <li>Lesson planning & delivery</li>
-              <li>Classroom management</li>
-              <li>Assessment & feedback</li>
-              <li>Differentiated instruction</li>
-              <li>Safeguarding</li>
-              <li>Behaviour management</li>
-            </ul>
-          </article>
-          <article class="card">
-            <h3>Technical</h3>
-            <ul class="tag-list">
-              <li>HTML, CSS, JavaScript</li>
-              <li>Web development</li>
-              <li>Programming & OOP</li>
-              <li>Databases & SDLC</li>
-              <li>Problem-solving</li>
-              <li>Educational technology</li>
-            </ul>
-          </article>
-          <article class="card">
-            <h3>Professional</h3>
-            <ul class="tag-list">
-              <li>Leadership</li>
-              <li>Communication</li>
-              <li>Customer service</li>
-              <li>Sales & objection handling</li>
-              <li>Team collaboration</li>
-              <li>Time management</li>
-            </ul>
-          </article>
-        </div>
-
-        <div class="two-col">
-          <div>
-            <h3>Leadership</h3>
-            <p>
-              Led university group projects, coordinating diverse teammates, allocating tasks, and keeping communication open to deliver on time and to a high standard.
-            </p>
-          </div>
-          <div>
-            <h3>Communication</h3>
-            <p>
-              Able to explain technical ideas to non-technical audiences – pupils, customers, or colleagues – in a calm, structured way. Confident in written and verbal communication.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- EXPERIENCE -->
-    <section id="experience" class="section-pad section-alt">
-      <div class="container">
-        <div class="section-heading-flex">
-          <h2>Experience</h2>
-          <p class="muted">Education · Technology · Customer-facing roles</p>
-        </div>
-        <div class="timeline">
-          <article class="timeline-item">
-            <h3>Trainee Teacher (Secondary Computing)</h3>
-            <p class="meta">Leicester &amp; Leicestershire SCITT · Aug 2025 – Present · Leicester, UK</p>
-            <ul>
-              <li>Delivering the secondary computing curriculum with focus on digital literacy, programming and problem-solving.</li>
-              <li>Planning lessons, differentiating for mixed ability and using assessment to track progress.</li>
-              <li>Collaborating with school staff on schemes of work, behaviour approaches and inclusive practice.</li>
-              <li>Working towards QTS and PGCE, building safeguarding and classroom management expertise.</li>
-            </ul>
-          </article>
-
-          <article class="timeline-item">
-            <h3>Graduate Teaching Associate</h3>
-            <p class="meta">Aspire People (Education Agency) · Oct 2024 – Jun 2025 · Leicester, UK</p>
-            <ul>
-              <li>Gained classroom experience across KS3/KS4, supporting lesson delivery and behaviour routines.</li>
-              <li>Adapted quickly to different schools and environments.</li>
-            </ul>
-          </article>
-
-          <article class="timeline-item">
-            <h3>Outbound Sales Advisor</h3>
-            <p class="meta">Currys plc · Oct 2023 – Jul 2025 · Loughborough, UK</p>
-            <ul>
-              <li>Built rapport over phone to understand customer needs and recommend products/services.</li>
-              <li>Hit and exceeded KPIs using persuasive yet customer-first communication.</li>
-              <li>Maintained strong product knowledge and worked with the team to maximise performance.</li>
-            </ul>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- EDUCATION -->
-    <section id="education" class="section-pad">
-      <div class="container">
-        <div class="section-heading-flex">
-          <h2>Education</h2>
-          <p class="muted">Strong academic foundation in Computing and IT.</p>
-        </div>
-        <div class="edu-grid">
-          <article class="card">
-            <h3>PGCE (Secondary Computing) + QTS (in progress)</h3>
-            <p class="meta">University of Leicester · Aug 2025 – Jul 2026</p>
-            <p>
-              Focusing on curriculum design, inclusive teaching strategies, behaviour management and assessment. Applying theory on placement while developing reflective practice.
-            </p>
-          </article>
-          <article class="card">
-            <h3>BSc (Hons) Computer Science – First Class</h3>
-            <p class="meta">De Montfort University · 2020 – 2023</p>
-            <p>
-              Modules included web development, agile team development, computer ethics, mathematics for computing, and a final-year development project.
-            </p>
-          </article>
-          <article class="card">
-            <h3>BTEC ICT Extended Diploma (Distinction**)</h3>
-            <p class="meta">Gateway Sixth Form College · 2018 – 2020</p>
-            <p>Equivalent to 3 A-Levels. Strong technical, project and communication base.</p>
-          </article>
-          <article class="card">
-            <h3>GCSEs (5 A*–C)</h3>
-            <p class="meta">Crown Hills Community College · 2012 – 2017</p>
-            <p>Built core communication, teamwork and problem-solving skills.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- CONTACT -->
-    <section id="contact" class="section-pad section-alt">
-      <div class="container narrow">
-        <h2>Contact</h2>
-        <p class="muted">For roles in education, computing or tech-focused environments.</p>
-        <div class="contact-box">
-          <p><strong>Email:</strong> <a href="mailto:7abuzarkhan@gmail.com">7abuzarkhan@gmail.com</a></p>
-          <p><strong>Location:</strong> Leicester, England, United Kingdom</p>
-        </div>
-        <form class="contact-form" action="#" method="post">
-          <label>
-            Name
-            <input type="text" name="name" required />
-          </label>
-          <label>
-            Email
-            <input type="email" name="email" required />
-          </label>
-          <label>
-            Message
-            <textarea name="message" rows="4" required></textarea>
-          </label>
-          <button type="submit" class="btn primary">Send message</button>
-        </form>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-flex">
-      <p>© <span id="year"></span> Abuzar Khan. All rights reserved.</p>
-      <p class="muted small">Built with HTML, CSS &amp; JS.</p>
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
